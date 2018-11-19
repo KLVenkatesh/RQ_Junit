@@ -11,7 +11,7 @@ public class ArraysToListTest {
 		String strArr[] = {"JAVA", "C++", "PERL", "STRUTS", "PLAY"};
 		String strArr1[] = {};
 		String strArr2[] = null;
-		assertFalse("passing the array with values", ArraysToList.arrayList(strArr));
+		assertTrue("passing the array with values", ArraysToList.arrayList(strArr));
 		assertTrue("passing Empty array", ArraysToList.arrayList(strArr1));
 		assertFalse("passing NULL array", ArraysToList.arrayList(strArr2));
 	}
