@@ -14,7 +14,7 @@ public class BinarySearchOnCharArrayTest {
 			assertTrue("passing the array of chars", BinarySearchOnCharArray.BinarySearch(chrArr, 'q'));
 			assertTrue("passing empty array",BinarySearchOnCharArray.BinarySearch(chrArr1,'q'));
 		}catch(Exception e) {
-			System.out.println("Empty arry");
+			System.out.println("Empty array");
 		}
 		
 	}
